@@ -14,35 +14,45 @@
         <header class="site flex flex-row justify-between items-center h-28  w-full shadow-lg bg-orange-600 md:flex-nowrap md:px-6 ">
             <div class="flex flex-row justify-center items-center gap-1">
                 <a href="index.html">
-                  <img src="assets/auchan-new-logo-concept.svg" alt="logo" class="w-28 h-16.5 md:h-16">
+                  <img src="assets/auchan-new-logo-concept.svg" alt="logo" class="w-auto h-10 md:h-16">
                 </a>
                 <h1 class="font-bold text-white text-4xl">Auchan</h1>
             </div>
             <div>
                 <input type="search" class="w-100">
             </div>
+
             <div class="flex flex-row gap-1 justify-center items-center mr-2">
+                <button type="button" id="open-popout" class="hover:bg-amber-950">
+                    <img src="assets/panier.png" alt="icon" class="h-8">
+               </button>
                 <img src="assets/profile.png" alt="profile_pic" class="h-8">
                 <a href="contacts.html"><small>Connect</small></a>
             </div>
 
         </header>
         <main>
-            <div class="main_container">
+            <div class="main_banner">
                 <div class="sub-container1 relative flex h-28 bg-amber-100">
 
                 </div>
             </div>
 
+
         </main>
         <footer class="footer flex h-28 bg-gray-950 w-full justify-center items-center">
 
              <div class="flex flex-col justify-center items-center ">
-                <h1 class=" font-bold text-white text-5xl md:text-5xl">Auchan</h1>
+                <a href="index.html"><h1 class=" font-bold text-white text-5xl md:text-5xl">Auchan</h1></a>
                 <small class="text-white">Made by ismail</small>
              </div> 
    
 
         </footer> 
+          <div id="popout-page" class="fixed inset-0 z-50 flex items-center justify-center p-4 hidden">
+
+          </div>
+
+        </div>
 </body>
 </html>
